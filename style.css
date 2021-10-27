@@ -29,7 +29,9 @@
   position: fixed;
   top: 0;
   width: 100%;
-  padding-top: 60px;
+  padding: 2px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
 }
 
 .navbar h1 {
@@ -42,15 +44,16 @@
   margin-right: auto;
   width: 350px;
   border-radius: 50%;
+  margin-top: 5px;
 }
 
 #home {
   width: 80%;
-  margin: 0 auto;
+  margin: 2% auto;
   text-align: center;
   background: white;
   padding: 10px;
-  border: 1px solid lightgrey;
+  border: 1px solid rgb(126, 120, 120);
 }
 
 #home a {
@@ -70,36 +73,57 @@
 
 #edu {
   width: 80%;
-  margin: 0 auto;
+  margin: 2% auto;
   text-align: center;
   background: white;
   padding: 10px;
-  border: 1px solid lightgrey;
+  border: 1px solid rgb(126, 120, 120);
 }
 
 #hobbies {
   width: 80%;
-  margin: 0 auto;
+  margin: 2% auto;
   text-align: center;
   background: white;
   padding: 10px;
-  border: 1px solid lightgrey;
+  border: 1px solid rgb(126, 120, 120);
 }
 
 #future {
   width: 80%;
-  margin: 0 auto;
+  margin: 2% auto;
   text-align: center;
   background: white;
   padding: 10px;
-  border: 1px solid lightgrey;
+ border: 1px solid rgb(126, 120, 120);
 }
 
 #contact {
   width: 80%;
-  margin: 0 auto;
+  margin: 2% auto;
   text-align: center;
   background: white;
   padding: 10px;
-  border: 1px solid lightgrey;
+ border: 1px solid rgb(126, 120, 120);
+}
+
+#contact ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#contact li {
+  float: center;
+}
+
+#contact li a {
+  display: block;
+  color: rgb(47, 101, 218);
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
